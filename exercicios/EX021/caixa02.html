@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box ;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #c5c3;
+        }
+        header{
+            background-color: rgba(213, 70, 213, 0.2);
+            margin: 0px;
+            padding:10px;
+        }
+        nav{
+            
+            display: flex;
+            gap: 30px;
+            flex-direction:row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.318);
+            
+            
+
+        }
+        a:hover{
+            color: aquamarine;
+            transition: .4s;
+            text-decoration: underline;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+        }
+        main{
+            margin: 10px 0;
+            padding: 50px;
+            background-color: blueviolet;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px black;
+        }
+        article{
+            color: #fff;
+        }
+        h2{
+            text-align: center;
+            padding: 0 10px 30px;
+        }
+        p{
+            text-align: ;
+        }
+        footer{
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding:10px;
+        }
+        aside{
+            background-color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Noticias</a>
+            <a href="#">Contatos</a>
+            <a href="#">Localização</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid quam perspiciatis eum deserunt consequatur esse? Amet incidunt perspiciatis maxime error totam, nihil quos cum esse eos, sapiente libero quo eligendi?</p>
+                <aside>
+                    <p>escrito por tom and jerry</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+
+    </footer>
+    
+</body>
+</html>

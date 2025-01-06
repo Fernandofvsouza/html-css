@@ -1,0 +1,14 @@
+
+
+h1{
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+    border: 10px solid aquamarine;
+    padding: 10px ;
+    margin: 20px ;
+}
+a{
+    border: 10px dashed burlywood;
+    
+}

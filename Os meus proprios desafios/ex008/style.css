@@ -1,0 +1,21 @@
+@charset "utf-8";
+body {
+    background-color: #00599f;
+    
+}
+ header{
+    color: #e4c023;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+
+ }
+ img {padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+
+ }
