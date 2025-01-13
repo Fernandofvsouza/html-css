@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(34, 130, 207), blue);
+    margin: auto
+}
+h1{
+    color: rgb(180, 23, 23);
+}
+img{
+    height: 500px;
+    width: 400px;
+
+}
+a{
+    font-size: 5rem;
+    color: blueviolet;
+}
