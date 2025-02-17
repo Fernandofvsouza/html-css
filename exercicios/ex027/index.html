@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media queries</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <i class="fa-solid fa-bars" id="burger" onclick="clickMenu()"></i>
@@ -32,11 +33,25 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique rerum porro sapiente aliquam, officiis pariatur distinctio architecto excepturi praesentium est optio cumque adipisci laboriosam, fugit voluptates sequi eum ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae neque inventore voluptas ipsa rem hic vitae dolor nemo consequuntur animi delectus praesentium doloremque, dicta qui porro quo dignissimos consectetur.</p>
         </article>
-    </main>
+    </main> 
+
+
+
+    
     
 
 
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+
+
         function clickMenu() {
           if (itens.style.display == 'block'){
               itens.style.display = 'none'
